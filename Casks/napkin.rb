@@ -1,8 +1,8 @@
 cask "napkin" do
-  version "0.5.9"
-  sha256 "bcc55bd605b2652e40b1087c88d17c0c0ea0d2d7a9b1b19349689880ce6f318e"
+  version :latest
+  sha256 :no_check
 
-  url "https://s3.amazonaws.com/soostone-napkin-public/static-binary/darwin/app-version/#{version}/napkin.tar.gz"
+  url "https://s3.amazonaws.com/soostone-napkin-public/static-binary/darwin-universal/app-version/2.0.0/napkin.tar.gz"
 
   name "Napkin"
   desc "Napkin is a command line application that executes data pipelines of all sizes, backed by a feature-rich Haskell library offering programmatic freedom."
